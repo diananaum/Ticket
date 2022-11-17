@@ -1,12 +1,12 @@
 package ru.netology.manager;
 import ru.netology.domain.Ticket;
 import ru.netology.repository.TicketRepository;
-
 import java.util.Arrays;
 
 public class TicketManager {
     protected TicketRepository repo;
-    public TicketManager (TicketRepository repo) {
+
+    public TicketManager(TicketRepository repo) {
         this.repo = repo;
     }
 
